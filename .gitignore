@@ -1,0 +1,8 @@
+.DS_Store
+
+/target/
+/dist/
+/static/
+/.dioxus/
+
+**/*.rs.bk
