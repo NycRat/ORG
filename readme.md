@@ -1,6 +1,4 @@
 # ORG
-┃   9 │ - Name
-
 
 > _Tasks, Goals, Calendar, Timeline_
 
