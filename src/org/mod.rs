@@ -6,3 +6,7 @@ pub use heading::Heading;
 
 pub mod pages;
 pub use pages::Page;
+
+pub mod state;
+
+pub mod views;

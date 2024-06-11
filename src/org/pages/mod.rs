@@ -14,18 +14,12 @@ use timeline::Timeline;
 #[component]
 pub fn Page(name: String, children: Element) -> Element {
     rsx! {
-        div {
-            div {
-                class: "p-8",
-                org::Heading {
-                    name
-                },
-                {children},
-            },
-            div {
-                class: "fixed bottom-0 left-0 right-0",
-                org::Nav {},
-            },
+        div { class: "relative h-screen",
+            div { class: "p-8",
+                org::Heading { name }
+                {children}
+            }
+            div { class: "fixed bottom-0 left-0 right-0", org::Nav {} }
         }
     }
 }

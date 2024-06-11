@@ -5,10 +5,6 @@ use crate::org;
 #[component]
 pub fn Calendar() -> Element {
     rsx! {
-        org::Page {
-            name: "Calendar",
-            "stuff herer"
-        }
+        org::Page { name: "Calendar", "stuff herer" }
     }
 }
-

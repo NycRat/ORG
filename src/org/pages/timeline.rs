@@ -5,8 +5,6 @@ use crate::org;
 #[component]
 pub fn Timeline() -> Element {
     rsx! {
-        org::Page {
-            name: "Timeline"
-        },
+        org::Page { name: "Timeline" }
     }
 }
